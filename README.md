@@ -22,17 +22,17 @@ This portfolio combines over 20 real-world security projects into one unified de
 Each section contains documentation, visuals, scripts, dashboards, or playable worksheets.
 
 ---
-
 ## 🔍 Key Sections & Navigation  
 
 | **Domain** | **What’s Inside** | **Link** |
-|-------------|-------------------|-----------|
-| 🛡 **Governance & Risk (GRC)** | Risk assessments, policy drafts, threat modeling, compliance checklists | [Governance_Risk_Compliance/](./Governance_Risk_Compliance) |
-| 🚨 **Incident Response & Forensics** | DDoS analysis, breach investigations, IR playbooks, forensic reports | [Incident_Response_Forensics/](./Incident_Response_Forensics) |
-| 🖥 **SOC / SIEM / Alert Handling** | Splunk log analysis, dashboards, alert triage workflows | [SOC_SIEM_Alert_Handling/](./SOC_SIEM_Alert_Handling) |
-| ⚙️ **Systems & Automation** | Linux permissions hardening, Python automation, SQL log analytics | [Systems_Automation/](./Systems_Automation) |
-| 🌐 **Professional Development** | Organizational worksheets, compliance roadmaps, certifications | [Professional_Development/](./Professional_Development) |
-| 📘 **Capstone Case Study** | End-to-end cybersecurity program for a fictional e-commerce company | [Capstone_Case_Study/](./Capstone_Case_Study) |
+|------------|--------------------|----------|
+| 🛡 **Governance & Risk (GRC)** | Risk assessments, policy drafts, threat modeling, compliance checklists | [Governance_Risk_Compliance](./Governance_Risk_Compliance/) |
+| 🚨 **Incident Response & Forensics** | DDoS analysis, breach investigations, IR playbooks, forensic reports | [Incident_Response_Forensics](./Incident_Response_Forensics/) |
+| 🖥 **SOC / SIEM / Alert Handling** | Splunk log analysis, dashboards, alert triage workflows | [SOC_SIEM_Alert_Handling](./SOC_SIEM_Alert_Handling/) |
+| ⚙️ **Systems & Automation** | Linux permissions hardening, Python automation, SQL log analytics | [Systems_Automation](./Systems_Automation/) |
+| 🌐 **Professional Development** | Organizational worksheets, compliance roadmaps, certifications | [Professional_Development](./Professional_Development/) |
+| 📘 **Capstone Case Study** | End-to-end cybersecurity program for a fictional e-commerce company | [Capstone_Case_Study](./Capstone_Case_Study/) |
+
 
 ---
 
