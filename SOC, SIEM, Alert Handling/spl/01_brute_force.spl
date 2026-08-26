@@ -1,0 +1,6 @@
+index=auth action=failure
+| bin _time span=5m
+| stats count AS failures dc(username) AS users values(username) AS usernames BY _time src_ip
+| where failures >= 10
+| eval severity=if(failures>=20,"high","medium")
+| sort - failures

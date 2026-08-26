@@ -1,0 +1,22 @@
+SOC, SIEM, ALERT HANDLING - PORTFOLIO INDEX
+
+01 SOC Detection Catalog
+02 SOC Alert Triage Casebook
+03 Tier 1 SOC Investigation Runbook
+04 Alert Disposition & Tuning Tracker
+05 SOC Investigation Timeline
+06 SIEM Dashboard & SOC Metrics
+07 Phishing Alert Investigation Ticket
+08 Detection Testing & Validation Report
+09 SOC Severity, Disposition & Escalation Matrix
+10 Recruiter Quick View
+README.md
+data/auth_logs.csv
+spl/01_brute_force.spl
+spl/02_password_spray.spl
+spl/03_credential_stuffing.spl
+spl/04_failed_then_success.spl
+spl/05_impossible_travel.spl
+spl/06_suspicious_powershell.spl
+
+No placeholders. All scenarios and telemetry are synthetic and interview-defensible.

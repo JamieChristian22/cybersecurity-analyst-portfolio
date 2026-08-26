@@ -1,0 +1,5 @@
+index=auth
+| transaction username src_ip maxspan=10m
+| search action=failure action=success
+| eval severity="high"
+| table _time username src_ip duration eventcount action auth_method geo device

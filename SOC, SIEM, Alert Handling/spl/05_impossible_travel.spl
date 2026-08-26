@@ -1,0 +1,7 @@
+index=auth action=success
+| sort 0 username _time
+| streamstats current=f last(_time) AS prev_time last(geo) AS prev_geo last(src_ip) AS prev_ip BY username
+| eval delta_minutes=round((_time-prev_time)/60,1)
+| where isnotnull(prev_geo) AND geo!=prev_geo AND delta_minutes<=60
+| eval severity="high"
+| table _time username prev_geo geo prev_ip src_ip delta_minutes auth_method device
