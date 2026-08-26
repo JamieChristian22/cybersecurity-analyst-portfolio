@@ -1,0 +1,18 @@
+[
+  {
+    "type": "Repeated Authentication Failures",
+    "severity": "medium",
+    "timestamp": "2026-08-21T02:16:20",
+    "username": "j.smith",
+    "src_ip": "203.0.113.44",
+    "evidence": "5 failures within 5 minutes"
+  },
+  {
+    "type": "Failures Followed by Success",
+    "severity": "high",
+    "timestamp": "2026-08-21T02:19:00",
+    "username": "j.smith",
+    "src_ip": "203.0.113.44",
+    "evidence": "8 recent failures followed by success"
+  }
+]

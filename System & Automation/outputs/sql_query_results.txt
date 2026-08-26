@@ -1,0 +1,28 @@
+== failed_logins ==
+timestamp | username | src_ip | geo
+2026-08-21T02:15:00 | j.smith | 203.0.113.44 | US-VA
+2026-08-21T02:15:20 | j.smith | 203.0.113.44 | US-VA
+2026-08-21T02:15:40 | j.smith | 203.0.113.44 | US-VA
+2026-08-21T02:16:00 | j.smith | 203.0.113.44 | US-VA
+2026-08-21T02:16:20 | j.smith | 203.0.113.44 | US-VA
+2026-08-21T02:16:40 | j.smith | 203.0.113.44 | US-VA
+2026-08-21T02:17:00 | j.smith | 203.0.113.44 | US-VA
+2026-08-21T02:17:20 | j.smith | 203.0.113.44 | US-VA
+2026-08-21T12:30:00 | a.green | 192.0.2.77 | US-NY
+2026-08-21T12:30:00 | j.smith | 192.0.2.77 | US-NY
+2026-08-21T12:30:00 | m.turner | 192.0.2.77 | US-NY
+2026-08-21T12:30:00 | r.brown | 192.0.2.77 | US-NY
+
+== off_hours ==
+timestamp | username | src_ip | geo
+2026-08-21T02:19:00 | j.smith | 203.0.113.44 | US-VA
+2026-08-21T23:48:00 | a.green | 198.51.100.90 | DE-BE
+
+== repeated_failures_by_ip ==
+src_ip | failure_count | targeted_users
+203.0.113.44 | 8 | 1
+192.0.2.77 | 4 | 4
+
+== success_after_failures ==
+timestamp | username | src_ip | prior_failures
+2026-08-21T02:19:00 | j.smith | 203.0.113.44 | 8

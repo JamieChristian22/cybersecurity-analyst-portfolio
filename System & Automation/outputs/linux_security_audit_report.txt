@@ -1,0 +1,44 @@
+LINUX SECURITY AUDIT REPORT - SYNTHETIC LAB EXAMPLE
+Generated: 2026-08-26 14:00:00 UTC
+
+== System ==
+Linux lab-server-01 6.8.0 x86_64 GNU/Linux
+
+== Effective User ==
+uid=1001(secstudent) gid=1001(secstudent) groups=1001(secstudent),27(sudo)
+
+== Listening Ports ==
+tcp 0 0 0.0.0.0:22 0.0.0.0:* LISTEN
+tcp 0 0 127.0.0.1:5432 0.0.0.0:* LISTEN
+
+== Firewall Status ==
+Status: active
+22/tcp ALLOW from 10.10.10.0/24
+
+== SSH Hardening Signals ==
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+MaxAuthTries 4
+
+== UID 0 Accounts ==
+root:0:/bin/bash
+
+== World-Writable Files ==
+No unexpected world-writable files found in assessed paths.
+
+== Enabled Services ==
+ssh.service enabled
+cron.service enabled
+rsyslog.service enabled
+
+== Disk Usage ==
+/dev/sda2 40G 12G 26G 32% /
+
+ASSESSMENT SUMMARY
+- Root SSH login disabled.
+- Password authentication disabled; public-key authentication enabled.
+- Firewall active with restricted SSH source network.
+- One UID 0 account (root) observed.
+- No unexpected world-writable files in assessed paths.
+- Enabled services reviewed; no unapproved sample service identified.
