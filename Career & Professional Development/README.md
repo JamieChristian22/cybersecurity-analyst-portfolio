@@ -1,60 +1,59 @@
-# 🌐 Career & Professional Development
+# Career & Professional Development
 
-This section highlights my ongoing commitment to **continuous learning, professional growth, and strategic cybersecurity alignment**.  
-It demonstrates how I strengthen my skills across technical, governance, and operational domains — connecting certifications, frameworks, and real-world experience into a cohesive professional trajectory.
+## Cybersecurity Analyst Portfolio - Jamie Christian II
 
----
+This directory documents structured professional development that supports entry-level Cybersecurity Analyst, SOC Analyst, Information Security Analyst, GRC Analyst, Incident Response Analyst, Vulnerability Management Analyst, and Security Operations roles. The focus is not simply course completion; each artifact connects training and security frameworks to analyst responsibilities such as control assessment, incident escalation, risk communication, evidence handling, audit readiness, and continuous improvement.
 
-## 📄 Projects Included
+## Portfolio Value
 
-### 1. **Security Organization Worksheet**
-**Objective:** Design and evaluate a security team structure that aligns with business functions and cybersecurity goals.  
-**Key Contributions:**
-- Defined organizational roles, escalation paths, and security ownership.  
-- Outlined collaboration between IT, compliance, and executive management.  
-- Incorporated **governance, risk management, and accountability (GRC)** principles.  
-- Modeled alignment with **NIST CSF**, **COBIT 2019**, and **ISO 27001 Annex A**.  
+Recruiters and hiring managers can use this folder to evaluate four areas: security governance knowledge, compliance and control analysis, professional learning discipline, and the ability to translate cybersecurity concepts into business-ready documentation. The artifacts are written as work samples rather than study notes.
 
-**Skills Demonstrated:** Security governance · Organizational design · Policy management · Communication alignment  
+## Included Artifacts
 
----
+| Artifact | Purpose | Skills Demonstrated |
+|---|---|---|
+| `01_Security_Organization_Worksheet.pdf` | Defines a practical security operating model, ownership, escalation, governance, and cross-functional responsibilities. | Security governance, RACI thinking, escalation design, stakeholder communication, NIST CSF alignment |
+| `02_Controls_and_Compliance_Checklist.pdf` | Evaluates representative security controls, identifies gaps, assigns risk, and recommends remediation. | Control testing, audit readiness, risk analysis, PCI DSS/SOC 2/GDPR mapping, remediation planning |
+| `03_Cybersecurity_Career_Development_Roadmap.pdf` | Shows a role-aligned development plan connecting training, portfolio evidence, and target analyst competencies. | Career planning, competency mapping, continuous learning, role alignment |
+| `04_Framework_Knowledge_Matrix.md` | Maps major frameworks and standards to practical analyst activities. | NIST CSF, NIST SP 800-53, CIS Controls, ISO/IEC 27001, SOC 2, PCI DSS, GDPR |
+| `05_Training_and_Credentials.md` | Separates completed professional certificate programs and exam preparation from vendor certification status. | Credential transparency, professional development, security foundations, analytics |
+| `06_Professional_Development_Outcomes.md` | Connects learning activities to job-ready cybersecurity outcomes and portfolio evidence. | Security operations, GRC, incident response, analytics, communication |
+| `07_Recruiter_Quick_View.md` | One-page review guide for hiring teams. | Positioning, evidence summary, target-role fit |
 
-### 2. **Controls & Compliance Checklist**
-**Objective:** Evaluate an organization’s readiness for compliance with key frameworks.  
-**Key Contributions:**
-- Benchmarked controls against **PCI DSS**, **SOC 2**, and **GDPR** requirements.  
-- Identified gaps in incident response, encryption, and business continuity controls.  
-- Recommended practical remediation strategies to strengthen compliance posture.  
-- Reinforced accountability and documentation across departments.  
+## Completed Professional Development
 
-**Skills Demonstrated:** Compliance assessment · Framework mapping · Audit readiness · Control gap analysis  
+### Google Cybersecurity Professional Certificate - Completed
+Core development areas include security foundations, network security, Linux and SQL, threat identification, SIEM concepts, incident response, detection and response workflows, Python-based security automation, risk management, and security operations fundamentals.
 
----
+### Google Data Analytics Professional Certificate - Completed
+Core development areas include structured problem solving, data preparation, SQL, spreadsheets, data quality, analysis, visualization, and communication of findings. In cybersecurity, these capabilities transfer directly to log analysis, security metrics, trend identification, evidence review, and stakeholder reporting.
 
-## 🎓 Certifications Accomplished & In Progress
+### CompTIA Security+ (SY0-701) Exam Preparation Course - Completed Training
+Completed structured Security+ SY0-701 exam preparation covering security concepts, threats, vulnerabilities, architecture, operations, identity and access, risk management, incident response, and governance. This entry is intentionally labeled as completed **training** and does not represent that the CompTIA Security+ certification exam has been passed unless a separately verified credential is added later.
 
-| Certification | Status | Focus Area |
-|----------------|---------|-------------|
-| **Google Cybersecurity Professional Certificate** | ✅ Completed | Cyber defense, SIEM, SOC fundamentals, risk management 
-| **Google Data Analytics Professional Certificate** | ✅ Completed | Data cleaning, visualization, and SQL for business insights |
-| **CompTIA Security+ Certification (SY0-701): The Total Course** | ✅ Completed | Foundational cybersecurity principles, network defense, risk mitigation |
+## Frameworks & Standards Applied
 
----
+`NIST Cybersecurity Framework 2.0` · `NIST SP 800-53` · `CIS Critical Security Controls` · `ISO/IEC 27001` · `COBIT 2019` · `SOC 2 Trust Services Criteria` · `PCI DSS` · `GDPR`
 
-## 🧭 Key Outcomes
-- Built a foundation of **cybersecurity, data analytics, and governance** knowledge through structured certifications.  
-- Developed a balanced skill set combining **technical, analytical, and leadership** capabilities.  
-- Aligned training and experience with **industry standards** (NIST, ISO 27001, PCI DSS).  
-- Demonstrated lifelong learning and readiness for evolving security challenges.  
+## Analyst Competencies Demonstrated
 
----
+- Security governance and organizational accountability
+- Control assessment and compliance mapping
+- Risk identification, prioritization, and remediation planning
+- Incident ownership, escalation, and communication
+- Audit-ready documentation and evidence organization
+- Security metrics and analytical thinking
+- Cross-functional collaboration with IT, engineering, compliance, legal, and leadership
+- Continuous learning tied directly to job responsibilities
 
-**Frameworks & Standards:**  
-`NIST Cybersecurity Framework (CSF)` · `ISO 27001` · `COBIT 2019` · `PCI DSS` · `SOC 2` · `GDPR`  
+## Target Roles
 
----
+This folder is most relevant to **Cybersecurity Analyst**, **SOC Analyst I / Tier 1**, **Information Security Analyst**, **GRC Analyst**, **IT Risk Analyst**, **Security Compliance Analyst**, **Incident Response Analyst**, and **Vulnerability Management Analyst** positions.
 
-**Folder Path:**  
-`/Professional_Development/`  
+## Repository Path
 
-This directory showcases my **professional learning journey**, combining certifications, organizational maturity planning, and compliance initiatives — reflecting continuous growth and alignment with modern cybersecurity practices.
+`/Career & Professional Development/`
+
+## Portfolio
+
+Main repository: https://github.com/JamieChristian22/cybersecurity-analyst-portfolio
