@@ -1,0 +1,11 @@
+domain,kpi,baseline,target
+Risk,Critical risks without active treatment,3,0
+Vulnerability,Internet-facing critical findings past SLA,4,0
+IAM,Privileged MFA coverage,72%,100%
+IAM,Quarterly privileged access review completion,55%,100%
+Monitoring,P1 log-source coverage,40%,100%
+SOC,High alerts acknowledged within 10 min,68%,>=95%
+SOC,Detection false-positive rate,38%,<20%
+IR,High-severity incidents with complete timeline/handoff,60%,>=95%
+Recovery,Critical-system restore tests completed,25%,100%
+Vendor,High-risk vendors with current security review,50%,100%
