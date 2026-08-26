@@ -1,106 +1,55 @@
-# 🛡 Governance & Risk (GRC)
+# Governance & Risk (GRC)
 
-This section demonstrates my ability to assess, manage, and mitigate organizational risk by applying industry frameworks such as **NIST SP 800-53**, **ISO 27001**, **PCI DSS**, and **GDPR**.  
-Each document aligns with real-world governance and compliance practices designed to strengthen a company’s security posture and ensure regulatory readiness.
+This section demonstrates practical, entry-level Governance, Risk, and Compliance work through fully documented security risk assessments, risk registers, vulnerability prioritization, threat modeling, policy development, access-control analysis, data-leak risk analysis, and compliance-readiness reviews.
 
----
+The work is designed to show how I approach a GRC or cybersecurity analyst assignment: define scope, identify risk, collect or specify evidence, evaluate controls, prioritize remediation, assign ownership, validate closure, and communicate residual risk.
 
-## 📄 Projects Included
+## Portfolio Quick View
 
-### 1. **Security Risk Assessment Report**
-**Goal:** Identify and evaluate threats, vulnerabilities, and impacts across business assets.  
-**Highlights:**
-- Risk matrix with likelihood and impact ratings.  
-- Prioritized mitigation plan and residual risk analysis.  
-- Executive summary aligned to NIST RMF (Identify → Assess → Mitigate).  
+| Work Sample | Skills Demonstrated | Framework / Method |
+|---|---|---|
+| 01 Security Risk Assessment | Risk identification, likelihood/impact, treatment, residual risk | NIST CSF / RMF concepts |
+| 02 Risk Register | Ownership, risk treatment, review cadence, accountability | Enterprise risk management |
+| 03 Vulnerability Assessment | Severity + business-context prioritization, SLAs, validation | CVSS-informed methodology |
+| 04 PASTA Threat Model | Attack paths, threat actors, vulnerabilities, business impact | PASTA |
+| 05 Security Policy Drafts | Policy scope, requirements, exceptions, enforcement | NIST / ISO-aligned themes |
+| 06 Access Control Assessment | RBAC, MFA, least privilege, segregation of duties | IAM / NIST AC & IA concepts |
+| 07 Data Leak Risk Analysis | Data flows, DLP, encryption, monitoring, response | NIST SP 800-53 concepts |
+| 08 Controls & Compliance Readiness | Evidence, gaps, remediation, audit readiness | SOC 2 / PCI DSS / GDPR / ISO |
+| 09 Botium Toys Risk Assessment | End-to-end case study and prioritized roadmap | Multi-control risk assessment |
+| 10 Recruiter Quick View | Fast hiring-manager overview | Role alignment |
 
----
+## Core GRC Capabilities Demonstrated
 
-### 2. **Risk Register**
-**Goal:** Track and monitor ongoing security risks through documented ownership and mitigation status.  
-**Highlights:**
-- Includes risk ID, description, category, probability, and severity.  
-- Columns for current controls, treatment plan, and review cycle.  
-- Provides continuous risk visibility and accountability.  
+- Risk identification, scoring, treatment, residual-risk tracking, and risk acceptance
+- Risk registers with accountable owners and review cycles
+- Control assessment and audit-ready evidence expectations
+- Vulnerability remediation prioritization and closure validation
+- Identity and access governance: RBAC, MFA, least privilege, segregation of duties
+- Security policy development and exception governance
+- Threat modeling using PASTA
+- Data classification, encryption, DLP, and incident decision criteria
+- Compliance-readiness mapping across SOC 2, PCI DSS, GDPR, ISO/IEC 27001, and NIST concepts
+- Executive and operational security reporting
 
----
+## Frameworks & Methods
 
-### 3. **Vulnerability Assessment Report**
-**Goal:** Evaluate system and network vulnerabilities for remediation prioritization.  
-**Highlights:**
-- Technical findings mapped to **CVSS** scores.  
-- Identified outdated software, misconfigurations, and missing patches.  
-- Contains remediation recommendations by criticality level.  
+`NIST CSF 2.0` · `NIST SP 800-53` · `NIST RMF concepts` · `ISO/IEC 27001` · `SOC 2` · `PCI DSS` · `GDPR` · `PASTA` · `CVSS-informed prioritization` · `RBAC` · `MFA` · `Least Privilege`
 
----
+## Target Roles
 
-### 4. **PASTA Threat Modeling Worksheet**
-**Goal:** Analyze potential attack vectors using the **Process for Attack Simulation and Threat Analysis (PASTA)** methodology.  
-**Highlights:**
-- Step-by-step threat enumeration and impact mapping.  
-- Defined threat actors, attack surfaces, and risk scenarios.  
-- Supports proactive defense planning and control design.  
+- GRC Analyst
+- IT Risk Analyst
+- Security Compliance Analyst
+- Cybersecurity Analyst
+- Information Security Analyst
+- Vulnerability Management Analyst
+- Junior Third-Party Risk Analyst
 
----
+## Portfolio Integrity
 
-### 5. **Security Policy Drafts**
-**Goal:** Establish foundational policies for secure operations and compliance alignment.  
-**Highlights:**
-- Password, Acceptable Use, and Data Handling policies.  
-- Written to align with **ISO 27001 Annex A** controls.  
-- Defines user responsibilities and enforcement mechanisms.  
+These documents are portfolio work samples and case studies created to demonstrate analyst methodology. They do not represent a formal audit opinion, legal determination, certification, attestation, or claim that the described controls were implemented for a specific employer.
 
----
+## Folder Path
 
-### 6. **Access Control Worksheet**
-**Goal:** Evaluate and strengthen access management practices.  
-**Highlights:**
-- Identified excessive permissions and role conflicts.  
-- Recommendations for **RBAC**, **MFA**, and least-privilege enforcement.  
-- Improved accountability through access reviews and segregation of duties.  
-
----
-
-### 7. **Data Leak Worksheet**
-**Goal:** Prevent unintentional data exposure or exfiltration incidents.  
-**Highlights:**
-- NIST SP 800-53 AC-6 (Least Privilege) implementation plan.  
-- Classification of data flows and storage locations.  
-- Control recommendations for encryption, DLP, and user training.  
-
----
-
-### 8. **Controls & Compliance Checklist**
-**Goal:** Verify organizational readiness for key compliance standards.  
-**Highlights:**
-- Mapped controls across **PCI DSS**, **GDPR**, and **SOC 2** frameworks.  
-- Identified gaps in incident response, encryption, and business continuity.  
-- Provided remediation roadmap for audit preparation.  
-
----
-
-### 9. **Botium Toys Risk Assessment Report**
-**Goal:** Apply enterprise-level risk management to a real-world case study.  
-**Highlights:**
-- Scope, goals, and assets identified for the **Botium Toys** environment.  
-- Risk score of 8 assigned to critical vulnerabilities.  
-- Recommendations: encryption, intrusion detection, RBAC, and backups.  
-
----
-
-## 🧭 Key Outcomes
-- Strengthened governance through structured documentation and control tracking.  
-- Built comprehensive risk management framework aligning with **NIST RMF** and **ISO 27005**.  
-- Enhanced audit readiness and compliance visibility across business functions.
-
----
-
-**Tools & Frameworks:**  
-`NIST RMF` · `ISO 27001` · `PCI DSS` · `GDPR` · `SOC 2` · `Risk Matrix` · `CVSS` · `Excel / Sheets`
-
----
-
-**Folder Path:**  
-`/Governance_Risk/`  
-
-Each file within this directory contains a detailed, professionally formatted deliverable demonstrating my ability to perform governance, risk assessment, and compliance management activities in a real-world security context.
+`/Governance & Risk (GRC)/`
