@@ -1,0 +1,9 @@
+CAREER & PROFESSIONAL DEVELOPMENT - JAMIE CHRISTIAN II
+
+Target roles: Cybersecurity Analyst; SOC Analyst I / Tier 1; Information Security Analyst; GRC Analyst; IT Risk Analyst; Security Compliance Analyst; Incident Response Analyst; Vulnerability Management Analyst.
+
+Core competencies: Security governance, control assessment, audit readiness, risk analysis, incident escalation, SIEM concepts, security analytics, NIST CSF 2.0, NIST SP 800-53, CIS Controls, ISO/IEC 27001, COBIT 2019, SOC 2, PCI DSS, GDPR.
+
+Completed professional development: Google Cybersecurity Professional Certificate; Google Data Analytics Professional Certificate; CompTIA Security+ SY0-701-aligned exam preparation training (course completion, not represented as vendor certification).
+
+Portfolio: https://github.com/JamieChristian22/cybersecurity-analyst-portfolio
