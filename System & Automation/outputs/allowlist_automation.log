@@ -1,0 +1,5 @@
+2026-08-26 14:39:30,014 INFO approved=3 invalid=1 unauthorized=2 duplicates=1
+2026-08-26 14:39:30,014 WARNING invalid entry: bad-ip-value
+2026-08-26 14:39:30,014 WARNING unauthorized entry: 192.0.2.25
+2026-08-26 14:39:30,014 WARNING unauthorized entry: 198.51.100.10
+2026-08-26 14:39:30,014 INFO duplicate removed: 10.10.10.15

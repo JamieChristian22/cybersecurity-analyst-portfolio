@@ -1,0 +1,45 @@
+SYSTEM & AUTOMATION - PORTFOLIO INDEX
+
+01 Linux Security Hardening Assessment
+02 Linux File Permissions & Least Privilege
+03 Python IP Allow-List Automation
+04 Bash Linux Security Audit
+05 SQL Security Log Analysis
+06 Python Log Parser & Alert Generator
+07 Automation Testing & Error Handling
+08 System Hardening Checklist
+09 Security Automation Runbook
+10 Recruiter Quick View
+
+README.md
+
+python/
+  ip_allowlist_manager.py
+  security_log_parser.py
+
+bash/
+  linux_security_audit.sh
+
+sql/
+  security_log_queries.sql
+
+data/
+  sample_allowlist.txt
+  approved_networks.txt
+  security_events.csv
+  security_logs.db
+  auth_events_for_parser.csv
+
+outputs/
+  updated_allowlist.txt
+  allowlist_change_summary.json
+  allowlist_automation.log
+  linux_security_audit_report.txt
+  sql_query_results.txt
+  generated_alerts.json
+  test_results.txt
+
+tests/
+  test_ip_allowlist_manager.py
+
+All artifacts are fully completed. No placeholders are included.

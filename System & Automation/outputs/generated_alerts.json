@@ -1,0 +1,38 @@
+[
+  {
+    "alert_id": "d691587fcddb42ca",
+    "rule_id": "AUTH-001",
+    "severity": "medium",
+    "event_id": "row-26",
+    "timestamp": "2026-08-21T02:16:20+00:00",
+    "username": "j.smith",
+    "src_ip": "203.0.113.44",
+    "evidence_event_ids": [
+      "row-22",
+      "row-23",
+      "row-24",
+      "row-25",
+      "row-26"
+    ]
+  },
+  {
+    "alert_id": "2454c5d296a98e37",
+    "rule_id": "AUTH-002",
+    "severity": "high",
+    "event_id": "row-30",
+    "timestamp": "2026-08-21T02:19:00+00:00",
+    "username": "j.smith",
+    "src_ip": "203.0.113.44",
+    "evidence_event_ids": [
+      "row-22",
+      "row-23",
+      "row-24",
+      "row-25",
+      "row-26",
+      "row-27",
+      "row-28",
+      "row-29",
+      "row-30"
+    ]
+  }
+]

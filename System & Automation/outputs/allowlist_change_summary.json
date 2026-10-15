@@ -1,0 +1,8 @@
+{
+  "input_entries": 7,
+  "approved_entries": 3,
+  "invalid_entries_removed": 1,
+  "unauthorized_entries_removed": 2,
+  "duplicates_removed": 1,
+  "dry_run": false
+}
