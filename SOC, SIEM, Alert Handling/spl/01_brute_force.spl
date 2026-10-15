@@ -1,0 +1,6 @@
+index=auth action=failure
+| bin _time span=5m
+| stats count AS failures values(event_id) AS evidence_event_ids BY _time username src_ip
+| where failures>=5
+| eval severity="medium", rule_id="AUTH-001"
+| sort 0 _time username src_ip

@@ -1,0 +1,603 @@
+{
+  "scope": "Deterministic synthetic regression scenarios; not a representative efficacy benchmark",
+  "cases": 72,
+  "passed": 72,
+  "counts_by_rule": {
+    "ROLL-001": {
+      "tp": 12,
+      "tn": 12,
+      "fp": 0,
+      "fn": 0
+    },
+    "ROLL-002": {
+      "tp": 12,
+      "tn": 12,
+      "fp": 0,
+      "fn": 0
+    },
+    "ROLL-003": {
+      "tp": 12,
+      "tn": 12,
+      "fp": 0,
+      "fn": 0
+    }
+  },
+  "results": [
+    {
+      "case_id": "ROLL-001-1-00",
+      "target_rule": "ROLL-001",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five failures cross a fixed-bin boundary"
+    },
+    {
+      "case_id": "ROLL-001-1-01",
+      "target_rule": "ROLL-001",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five failures cross a fixed-bin boundary"
+    },
+    {
+      "case_id": "ROLL-001-1-02",
+      "target_rule": "ROLL-001",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five failures cross a fixed-bin boundary"
+    },
+    {
+      "case_id": "ROLL-001-1-03",
+      "target_rule": "ROLL-001",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five failures cross a fixed-bin boundary"
+    },
+    {
+      "case_id": "ROLL-001-1-04",
+      "target_rule": "ROLL-001",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five failures cross a fixed-bin boundary"
+    },
+    {
+      "case_id": "ROLL-001-1-05",
+      "target_rule": "ROLL-001",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five failures cross a fixed-bin boundary"
+    },
+    {
+      "case_id": "ROLL-001-1-06",
+      "target_rule": "ROLL-001",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five failures cross a fixed-bin boundary"
+    },
+    {
+      "case_id": "ROLL-001-1-07",
+      "target_rule": "ROLL-001",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five failures cross a fixed-bin boundary"
+    },
+    {
+      "case_id": "ROLL-001-1-08",
+      "target_rule": "ROLL-001",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five failures cross a fixed-bin boundary"
+    },
+    {
+      "case_id": "ROLL-001-1-09",
+      "target_rule": "ROLL-001",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five failures cross a fixed-bin boundary"
+    },
+    {
+      "case_id": "ROLL-001-1-10",
+      "target_rule": "ROLL-001",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five failures cross a fixed-bin boundary"
+    },
+    {
+      "case_id": "ROLL-001-1-11",
+      "target_rule": "ROLL-001",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five failures cross a fixed-bin boundary"
+    },
+    {
+      "case_id": "ROLL-001-0-00",
+      "target_rule": "ROLL-001",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Four failures stay below threshold"
+    },
+    {
+      "case_id": "ROLL-001-0-01",
+      "target_rule": "ROLL-001",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Failures are outside rolling window"
+    },
+    {
+      "case_id": "ROLL-001-0-02",
+      "target_rule": "ROLL-001",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Four failures stay below threshold"
+    },
+    {
+      "case_id": "ROLL-001-0-03",
+      "target_rule": "ROLL-001",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Failures are outside rolling window"
+    },
+    {
+      "case_id": "ROLL-001-0-04",
+      "target_rule": "ROLL-001",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Four failures stay below threshold"
+    },
+    {
+      "case_id": "ROLL-001-0-05",
+      "target_rule": "ROLL-001",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Failures are outside rolling window"
+    },
+    {
+      "case_id": "ROLL-001-0-06",
+      "target_rule": "ROLL-001",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Four failures stay below threshold"
+    },
+    {
+      "case_id": "ROLL-001-0-07",
+      "target_rule": "ROLL-001",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Failures are outside rolling window"
+    },
+    {
+      "case_id": "ROLL-001-0-08",
+      "target_rule": "ROLL-001",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Four failures stay below threshold"
+    },
+    {
+      "case_id": "ROLL-001-0-09",
+      "target_rule": "ROLL-001",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Failures are outside rolling window"
+    },
+    {
+      "case_id": "ROLL-001-0-10",
+      "target_rule": "ROLL-001",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Four failures stay below threshold"
+    },
+    {
+      "case_id": "ROLL-001-0-11",
+      "target_rule": "ROLL-001",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Failures are outside rolling window"
+    },
+    {
+      "case_id": "ROLL-002-1-00",
+      "target_rule": "ROLL-002",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Success after three recent failures"
+    },
+    {
+      "case_id": "ROLL-002-1-01",
+      "target_rule": "ROLL-002",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Success after three recent failures"
+    },
+    {
+      "case_id": "ROLL-002-1-02",
+      "target_rule": "ROLL-002",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Success after three recent failures"
+    },
+    {
+      "case_id": "ROLL-002-1-03",
+      "target_rule": "ROLL-002",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Success after three recent failures"
+    },
+    {
+      "case_id": "ROLL-002-1-04",
+      "target_rule": "ROLL-002",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Success after three recent failures"
+    },
+    {
+      "case_id": "ROLL-002-1-05",
+      "target_rule": "ROLL-002",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Success after three recent failures"
+    },
+    {
+      "case_id": "ROLL-002-1-06",
+      "target_rule": "ROLL-002",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Success after three recent failures"
+    },
+    {
+      "case_id": "ROLL-002-1-07",
+      "target_rule": "ROLL-002",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Success after three recent failures"
+    },
+    {
+      "case_id": "ROLL-002-1-08",
+      "target_rule": "ROLL-002",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Success after three recent failures"
+    },
+    {
+      "case_id": "ROLL-002-1-09",
+      "target_rule": "ROLL-002",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Success after three recent failures"
+    },
+    {
+      "case_id": "ROLL-002-1-10",
+      "target_rule": "ROLL-002",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Success after three recent failures"
+    },
+    {
+      "case_id": "ROLL-002-1-11",
+      "target_rule": "ROLL-002",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Success after three recent failures"
+    },
+    {
+      "case_id": "ROLL-002-0-00",
+      "target_rule": "ROLL-002",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Success precedes failures"
+    },
+    {
+      "case_id": "ROLL-002-0-01",
+      "target_rule": "ROLL-002",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Failures expired"
+    },
+    {
+      "case_id": "ROLL-002-0-02",
+      "target_rule": "ROLL-002",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Different user"
+    },
+    {
+      "case_id": "ROLL-002-0-03",
+      "target_rule": "ROLL-002",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Different source"
+    },
+    {
+      "case_id": "ROLL-002-0-04",
+      "target_rule": "ROLL-002",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Success precedes failures"
+    },
+    {
+      "case_id": "ROLL-002-0-05",
+      "target_rule": "ROLL-002",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Failures expired"
+    },
+    {
+      "case_id": "ROLL-002-0-06",
+      "target_rule": "ROLL-002",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Different user"
+    },
+    {
+      "case_id": "ROLL-002-0-07",
+      "target_rule": "ROLL-002",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Different source"
+    },
+    {
+      "case_id": "ROLL-002-0-08",
+      "target_rule": "ROLL-002",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Success precedes failures"
+    },
+    {
+      "case_id": "ROLL-002-0-09",
+      "target_rule": "ROLL-002",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Failures expired"
+    },
+    {
+      "case_id": "ROLL-002-0-10",
+      "target_rule": "ROLL-002",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Different user"
+    },
+    {
+      "case_id": "ROLL-002-0-11",
+      "target_rule": "ROLL-002",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Different source"
+    },
+    {
+      "case_id": "ROLL-003-1-00",
+      "target_rule": "ROLL-003",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five distinct targeted users"
+    },
+    {
+      "case_id": "ROLL-003-1-01",
+      "target_rule": "ROLL-003",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five distinct targeted users"
+    },
+    {
+      "case_id": "ROLL-003-1-02",
+      "target_rule": "ROLL-003",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five distinct targeted users"
+    },
+    {
+      "case_id": "ROLL-003-1-03",
+      "target_rule": "ROLL-003",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five distinct targeted users"
+    },
+    {
+      "case_id": "ROLL-003-1-04",
+      "target_rule": "ROLL-003",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five distinct targeted users"
+    },
+    {
+      "case_id": "ROLL-003-1-05",
+      "target_rule": "ROLL-003",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five distinct targeted users"
+    },
+    {
+      "case_id": "ROLL-003-1-06",
+      "target_rule": "ROLL-003",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five distinct targeted users"
+    },
+    {
+      "case_id": "ROLL-003-1-07",
+      "target_rule": "ROLL-003",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five distinct targeted users"
+    },
+    {
+      "case_id": "ROLL-003-1-08",
+      "target_rule": "ROLL-003",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five distinct targeted users"
+    },
+    {
+      "case_id": "ROLL-003-1-09",
+      "target_rule": "ROLL-003",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five distinct targeted users"
+    },
+    {
+      "case_id": "ROLL-003-1-10",
+      "target_rule": "ROLL-003",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five distinct targeted users"
+    },
+    {
+      "case_id": "ROLL-003-1-11",
+      "target_rule": "ROLL-003",
+      "expected_positive": true,
+      "observed_positive": true,
+      "passed": true,
+      "rationale": "Five distinct targeted users"
+    },
+    {
+      "case_id": "ROLL-003-0-00",
+      "target_rule": "ROLL-003",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Only four distinct users"
+    },
+    {
+      "case_id": "ROLL-003-0-01",
+      "target_rule": "ROLL-003",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Distinct users outside time window"
+    },
+    {
+      "case_id": "ROLL-003-0-02",
+      "target_rule": "ROLL-003",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Only four distinct users"
+    },
+    {
+      "case_id": "ROLL-003-0-03",
+      "target_rule": "ROLL-003",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Distinct users outside time window"
+    },
+    {
+      "case_id": "ROLL-003-0-04",
+      "target_rule": "ROLL-003",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Only four distinct users"
+    },
+    {
+      "case_id": "ROLL-003-0-05",
+      "target_rule": "ROLL-003",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Distinct users outside time window"
+    },
+    {
+      "case_id": "ROLL-003-0-06",
+      "target_rule": "ROLL-003",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Only four distinct users"
+    },
+    {
+      "case_id": "ROLL-003-0-07",
+      "target_rule": "ROLL-003",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Distinct users outside time window"
+    },
+    {
+      "case_id": "ROLL-003-0-08",
+      "target_rule": "ROLL-003",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Only four distinct users"
+    },
+    {
+      "case_id": "ROLL-003-0-09",
+      "target_rule": "ROLL-003",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Distinct users outside time window"
+    },
+    {
+      "case_id": "ROLL-003-0-10",
+      "target_rule": "ROLL-003",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Only four distinct users"
+    },
+    {
+      "case_id": "ROLL-003-0-11",
+      "target_rule": "ROLL-003",
+      "expected_positive": false,
+      "observed_positive": false,
+      "passed": true,
+      "rationale": "Distinct users outside time window"
+    }
+  ]
+}

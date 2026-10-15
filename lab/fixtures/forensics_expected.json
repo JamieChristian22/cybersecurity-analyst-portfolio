@@ -1,0 +1,16 @@
+{
+  "endpoint_alert_record": "102",
+  "endpoint_supporting_records": [
+    "102",
+    "103"
+  ],
+  "task_record_for_context": "104",
+  "packets": 13,
+  "dns_queries": [
+    "telemetry.lab.example"
+  ],
+  "periodic_source": "192.0.2.10",
+  "periodic_destination": "203.0.113.50",
+  "syn_attempts": 6,
+  "interval_seconds": 60
+}

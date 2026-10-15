@@ -1,0 +1,15 @@
+[
+  {
+    "rule_id": "ENDPOINT-001",
+    "severity": "high",
+    "host": "LAB-WS01",
+    "record_id": "102",
+    "timestamp": "2026-10-01T12:00:00Z",
+    "evidence_record_ids": [
+      "102",
+      "103"
+    ],
+    "finding": "Office-parent encoded PowerShell with correlated network event",
+    "disposition": "Suspicious; payload intent and compromise unconfirmed"
+  }
+]

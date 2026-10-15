@@ -1,0 +1,15 @@
+{
+  "origin": "Authored synthetic XML and PCAP; not captured from a host or network",
+  "python": "3.12.14",
+  "windows_events": 6,
+  "packets": 13,
+  "endpoint_alerts": 1,
+  "network_findings": 1,
+  "labeled_scenarios": 72,
+  "sha256": {
+    "lab/fixtures/benchmark/scenarios.json": "312f699a99bcd526c0534657382673e3c4bd2b208c7f8730bb483fb6f07e89c5",
+    "lab/fixtures/endpoint/windows_events.xml": "d0be1e382db9e7377a83cdc745f4fdb73ec41c1e706297599ed2a600fecac326",
+    "lab/fixtures/forensics_expected.json": "519246cc859d77257b1ede8978d9e51e79da12dc05003298d151c74d1fd99ebc",
+    "lab/fixtures/network/traffic.pcap": "4e20f6c5b4eff7829f8b6e63ec699da439f7c892231cb9e9ef9105a66b97ce45"
+  }
+}

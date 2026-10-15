@@ -1,0 +1,24 @@
+{
+  "python": "3.12.14",
+  "events": 23,
+  "alerts": 4,
+  "sql_correlations": 1,
+  "tests_exit_code": 0,
+  "data_origin": "Synthetic, authored fixture; no production telemetry",
+  "splunk_execution": "Not performed",
+  "independent_pcap_verification": "Passed: dpkt independently decoded fixture and verified IP/TCP checksums",
+  "sha256": {
+    "lab/__init__.py": "09326da5e10a9eef19b8e75a09c075a580068728c7bfd39218541868c97957fe",
+    "lab/auth_events.csv": "6a7e07f828b6809f0fa1c24b17fcd2cc1c5280aa1f4394ef152e29944a41701a",
+    "lab/build_benchmark.py": "6fa9d55dbe75a22de6b762752e36bb84056151ad3ecb771dfd2ff37e25c43101",
+    "lab/build_forensics.py": "3bf0011914835257cb39fec883fcc86c19152c6b63d202e4fe25f5988f6a13a0",
+    "lab/correlation.sql": "f81da5582fcfbd4c218010ad53ca4bc36713ed62080a0060f1c6b56999f3da53",
+    "lab/detections.py": "a0f91a2629ce1d912672d43d73846686b11064e4643a21018ea00f5094072188",
+    "lab/expected_alerts.json": "756cfff37742c7268404c767eb59491dcd40979122260f823b8b0fbe467c97a0",
+    "lab/extended.py": "ce8cb9d35195dfbfcc07878b1d9d0fcdd09b49ea8f248fbfac4f9d478c4e2556",
+    "lab/forensics.py": "25a92f3db5570c4b3a166df7121c6bb52fb881eba1df842d3ff0fcbe6603c73c",
+    "lab/reproduce.py": "f935033034de0114120a9c1149b720f735825035488b91dffa044b0ce2411d6c",
+    "lab/rolling.py": "3d7a7a69acc4da08a586d670b77bab8a642d51f05e85eb787a7912abee81083d",
+    "lab/verify_pcap.py": "12290b72190f6ca900f607aacba465b0fd27c02698489a8c3c45f862649ebadb"
+  }
+}

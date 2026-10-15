@@ -1,0 +1,7 @@
+index=auth (action=failure OR action=success)
+| eval action_order=if(action="success",0,1)
+| sort 0 _time action_order
+| streamstats current=f time_window=5m count(eval(action="failure")) AS prior_failures BY username src_ip
+| where action="success" AND prior_failures>=3
+| eval severity="high", rule_id="AUTH-002"
+| table _time event_id username src_ip prior_failures severity rule_id

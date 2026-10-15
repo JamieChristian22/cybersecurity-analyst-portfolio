@@ -1,0 +1,20 @@
+[
+  {
+    "rule_id": "NET-001",
+    "src_ip": "192.0.2.10",
+    "dst_ip": "203.0.113.50",
+    "dst_port": 443,
+    "syn_attempts": 6,
+    "median_interval_seconds": 60.0,
+    "interval_cv": 0.0,
+    "evidence_packet_numbers": [
+      2,
+      5,
+      7,
+      8,
+      10,
+      12
+    ],
+    "finding": "Periodic outbound TCP SYN attempts; connection establishment and C2 unproven"
+  }
+]

@@ -1,0 +1,117 @@
+{
+  "decoder": "dpkt",
+  "version": "1.9.8",
+  "packet_count": 13,
+  "ip_checksums_valid": true,
+  "tcp_checksums_valid": true,
+  "dns_queries": [
+    "telemetry.lab.example"
+  ],
+  "packets": [
+    {
+      "protocol": 17,
+      "src_port": 53000,
+      "dst_port": 53,
+      "dns_query": "telemetry.lab.example",
+      "src_ip": "192.0.2.10",
+      "dst_ip": "192.0.2.53"
+    },
+    {
+      "protocol": 6,
+      "src_port": 50000,
+      "dst_port": 443,
+      "tcp_flags": 2,
+      "src_ip": "192.0.2.10",
+      "dst_ip": "203.0.113.50"
+    },
+    {
+      "protocol": 6,
+      "src_port": 51000,
+      "dst_port": 443,
+      "tcp_flags": 2,
+      "src_ip": "192.0.2.20",
+      "dst_ip": "198.51.100.60"
+    },
+    {
+      "protocol": 6,
+      "src_port": 51001,
+      "dst_port": 443,
+      "tcp_flags": 2,
+      "src_ip": "192.0.2.20",
+      "dst_ip": "198.51.100.60"
+    },
+    {
+      "protocol": 6,
+      "src_port": 50001,
+      "dst_port": 443,
+      "tcp_flags": 2,
+      "src_ip": "192.0.2.10",
+      "dst_ip": "203.0.113.50"
+    },
+    {
+      "protocol": 6,
+      "src_port": 51002,
+      "dst_port": 443,
+      "tcp_flags": 2,
+      "src_ip": "192.0.2.20",
+      "dst_ip": "198.51.100.60"
+    },
+    {
+      "protocol": 6,
+      "src_port": 50002,
+      "dst_port": 443,
+      "tcp_flags": 2,
+      "src_ip": "192.0.2.10",
+      "dst_ip": "203.0.113.50"
+    },
+    {
+      "protocol": 6,
+      "src_port": 50003,
+      "dst_port": 443,
+      "tcp_flags": 2,
+      "src_ip": "192.0.2.10",
+      "dst_ip": "203.0.113.50"
+    },
+    {
+      "protocol": 6,
+      "src_port": 51003,
+      "dst_port": 443,
+      "tcp_flags": 2,
+      "src_ip": "192.0.2.20",
+      "dst_ip": "198.51.100.60"
+    },
+    {
+      "protocol": 6,
+      "src_port": 50004,
+      "dst_port": 443,
+      "tcp_flags": 2,
+      "src_ip": "192.0.2.10",
+      "dst_ip": "203.0.113.50"
+    },
+    {
+      "protocol": 6,
+      "src_port": 51004,
+      "dst_port": 443,
+      "tcp_flags": 2,
+      "src_ip": "192.0.2.20",
+      "dst_ip": "198.51.100.60"
+    },
+    {
+      "protocol": 6,
+      "src_port": 50005,
+      "dst_port": 443,
+      "tcp_flags": 2,
+      "src_ip": "192.0.2.10",
+      "dst_ip": "203.0.113.50"
+    },
+    {
+      "protocol": 6,
+      "src_port": 51005,
+      "dst_port": 443,
+      "tcp_flags": 2,
+      "src_ip": "192.0.2.20",
+      "dst_ip": "198.51.100.60"
+    }
+  ],
+  "source_sha256": "4e20f6c5b4eff7829f8b6e63ec699da439f7c892231cb9e9ef9105a66b97ce45"
+}

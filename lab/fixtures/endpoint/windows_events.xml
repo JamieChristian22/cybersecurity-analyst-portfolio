@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Events xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>1</EventID>
+      <EventRecordID>101</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAB-WS01</Computer>
+      <TimeCreated SystemTime="2026-10-01T11:59:50Z" />
+    </System>
+    <EventData>
+      <Data Name="ProcessGuid">{00000000-0000-0000-0000-000000000101}</Data>
+      <Data Name="Image">C:\Program Files\Microsoft Office\WINWORD.EXE</Data>
+      <Data Name="User">LAB\alex</Data>
+      <Data Name="ParentImage">C:\Windows\explorer.exe</Data>
+      <Data Name="CommandLine">WINWORD.EXE lab-document.docx</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>1</EventID>
+      <EventRecordID>102</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAB-WS01</Computer>
+      <TimeCreated SystemTime="2026-10-01T12:00:00Z" />
+    </System>
+    <EventData>
+      <Data Name="ProcessGuid">{00000000-0000-0000-0000-000000000102}</Data>
+      <Data Name="ParentProcessGuid">{00000000-0000-0000-0000-000000000101}</Data>
+      <Data Name="Image">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name="ParentImage">C:\Program Files\Microsoft Office\WINWORD.EXE</Data>
+      <Data Name="User">LAB\alex</Data>
+      <Data Name="CommandLine">powershell.exe -EncodedCommand VwByAGkAdABlAC0ATwB1AHQAcAB1AHQAIAAnAEwAQQBCACcA</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>3</EventID>
+      <EventRecordID>103</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAB-WS01</Computer>
+      <TimeCreated SystemTime="2026-10-01T12:00:01Z" />
+    </System>
+    <EventData>
+      <Data Name="ProcessGuid">{00000000-0000-0000-0000-000000000102}</Data>
+      <Data Name="Image">powershell.exe</Data>
+      <Data Name="User">LAB\alex</Data>
+      <Data Name="SourceIp">192.0.2.10</Data>
+      <Data Name="DestinationIp">203.0.113.50</Data>
+      <Data Name="DestinationPort">443</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-TaskScheduler" />
+      <EventID>106</EventID>
+      <EventRecordID>104</EventRecordID>
+      <Channel>Microsoft-Windows-TaskScheduler/Operational</Channel>
+      <Computer>LAB-WS01</Computer>
+      <TimeCreated SystemTime="2026-10-01T12:06:00Z" />
+    </System>
+    <EventData>
+      <Data Name="TaskName">\LabTelemetry</Data>
+      <Data Name="UserContext">LAB\alex</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>1</EventID>
+      <EventRecordID>201</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAB-WS01</Computer>
+      <TimeCreated SystemTime="2026-10-01T13:00:00Z" />
+    </System>
+    <EventData>
+      <Data Name="ProcessGuid">{00000000-0000-0000-0000-000000000201}</Data>
+      <Data Name="Image">powershell.exe</Data>
+      <Data Name="ParentImage">C:\Windows\System32\services.exe</Data>
+      <Data Name="User">LAB\svc-maintenance</Data>
+      <Data Name="CommandLine">powershell.exe -File C:\Lab\inventory.ps1</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>3</EventID>
+      <EventRecordID>202</EventRecordID>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>LAB-WS01</Computer>
+      <TimeCreated SystemTime="2026-10-01T13:00:01Z" />
+    </System>
+    <EventData>
+      <Data Name="ProcessGuid">{00000000-0000-0000-0000-000000000201}</Data>
+      <Data Name="Image">powershell.exe</Data>
+      <Data Name="User">LAB\svc-maintenance</Data>
+      <Data Name="SourceIp">192.0.2.10</Data>
+      <Data Name="DestinationIp">198.51.100.60</Data>
+      <Data Name="DestinationPort">443</Data>
+      <Data Name="Protocol">tcp</Data>
+      <Data Name="Initiated">true</Data>
+    </EventData>
+  </Event>
+</Events>

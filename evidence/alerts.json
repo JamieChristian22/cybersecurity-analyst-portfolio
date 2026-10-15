@@ -1,0 +1,64 @@
+[
+  {
+    "alert_id": "f080c22b17de2c0c",
+    "rule_id": "AUTH-001",
+    "severity": "medium",
+    "event_id": "A05",
+    "timestamp": "2026-10-01T09:04:00Z",
+    "username": "alex",
+    "src_ip": "203.0.113.10",
+    "evidence_event_ids": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05"
+    ]
+  },
+  {
+    "alert_id": "8d2fb02008772450",
+    "rule_id": "AUTH-002",
+    "severity": "high",
+    "event_id": "A06",
+    "timestamp": "2026-10-01T09:04:30Z",
+    "username": "alex",
+    "src_ip": "203.0.113.10",
+    "evidence_event_ids": [
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06"
+    ]
+  },
+  {
+    "alert_id": "8cfb7453ce0cda61",
+    "rule_id": "AUTH-003",
+    "severity": "medium",
+    "event_id": "D05",
+    "timestamp": "2026-10-01T10:04:00Z",
+    "username": "user5",
+    "src_ip": "203.0.113.40",
+    "evidence_event_ids": [
+      "D01",
+      "D02",
+      "D03",
+      "D04",
+      "D05"
+    ]
+  },
+  {
+    "alert_id": "584944a6965af957",
+    "rule_id": "AUTH-004",
+    "severity": "medium",
+    "event_id": "E02",
+    "timestamp": "2026-10-01T11:30:00Z",
+    "username": "devon",
+    "src_ip": "192.0.2.51",
+    "evidence_event_ids": [
+      "E01",
+      "E02"
+    ]
+  }
+]

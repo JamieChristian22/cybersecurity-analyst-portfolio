@@ -1,0 +1,20 @@
+INCIDENT RESPONSE & FORENSICS - PORTFOLIO INDEX
+
+01 DDoS Incident Analysis
+02 Network Traffic Forensics
+03 Incident Response Playbooks
+04 E-Commerce Data Breach Investigation
+05 Windows Endpoint Compromise Investigation
+06 Digital Evidence & Chain of Custody
+07 Incident Severity & Escalation Matrix
+08 IOC, Evidence & MITRE ATT&CK Guide
+09 Post-Incident Review & Corrective Actions
+10 Recruiter Quick View
+README.md
+
+Target roles:
+Incident Response Analyst | SOC Analyst I | Cybersecurity Analyst
+Information Security Analyst | Junior Digital Forensics Analyst
+Junior Threat Hunter | Network Security Analyst
+
+All scenarios are simulated and interview-defensible. No placeholders are included.

@@ -1,0 +1,3218 @@
+[
+  {
+    "case_id": "ROLL-001-1-00",
+    "target_rule": "ROLL-001",
+    "expected_positive": true,
+    "rationale": "Five failures cross a fixed-bin boundary",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T00:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T00:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T00:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T00:05:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T00:05:02+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-1-01",
+    "target_rule": "ROLL-001",
+    "expected_positive": true,
+    "rationale": "Five failures cross a fixed-bin boundary",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T01:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T01:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T01:05:02+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T01:05:04+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T01:05:06+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-1-02",
+    "target_rule": "ROLL-001",
+    "expected_positive": true,
+    "rationale": "Five failures cross a fixed-bin boundary",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T02:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T02:05:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T02:05:04+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T02:05:07+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T02:05:10+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-1-03",
+    "target_rule": "ROLL-001",
+    "expected_positive": true,
+    "rationale": "Five failures cross a fixed-bin boundary",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T03:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T03:05:02+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T03:05:06+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T03:05:10+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T03:05:14+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-1-04",
+    "target_rule": "ROLL-001",
+    "expected_positive": true,
+    "rationale": "Five failures cross a fixed-bin boundary",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T04:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T04:05:03+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T04:05:08+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T04:05:13+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T04:05:18+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-1-05",
+    "target_rule": "ROLL-001",
+    "expected_positive": true,
+    "rationale": "Five failures cross a fixed-bin boundary",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T05:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T05:05:04+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T05:05:10+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T05:05:16+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T05:05:22+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-1-06",
+    "target_rule": "ROLL-001",
+    "expected_positive": true,
+    "rationale": "Five failures cross a fixed-bin boundary",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T06:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T06:05:05+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T06:05:12+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T06:05:19+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T06:05:26+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-1-07",
+    "target_rule": "ROLL-001",
+    "expected_positive": true,
+    "rationale": "Five failures cross a fixed-bin boundary",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T07:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T07:05:06+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T07:05:14+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T07:05:22+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T07:05:30+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-1-08",
+    "target_rule": "ROLL-001",
+    "expected_positive": true,
+    "rationale": "Five failures cross a fixed-bin boundary",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T08:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T08:05:07+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T08:05:16+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T08:05:25+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T08:05:34+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-1-09",
+    "target_rule": "ROLL-001",
+    "expected_positive": true,
+    "rationale": "Five failures cross a fixed-bin boundary",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T09:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T09:05:08+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T09:05:18+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T09:05:28+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T09:05:38+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-1-10",
+    "target_rule": "ROLL-001",
+    "expected_positive": true,
+    "rationale": "Five failures cross a fixed-bin boundary",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T10:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T10:05:09+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T10:05:20+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T10:05:31+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T10:05:42+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-1-11",
+    "target_rule": "ROLL-001",
+    "expected_positive": true,
+    "rationale": "Five failures cross a fixed-bin boundary",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T11:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T11:05:10+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T11:05:22+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T11:05:34+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T11:05:46+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-0-00",
+    "target_rule": "ROLL-001",
+    "expected_positive": false,
+    "rationale": "Four failures stay below threshold",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T00:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T00:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T00:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T00:05:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-0-01",
+    "target_rule": "ROLL-001",
+    "expected_positive": false,
+    "rationale": "Failures are outside rolling window",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T01:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T01:09:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T01:15:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T01:20:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T01:25:02+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-0-02",
+    "target_rule": "ROLL-001",
+    "expected_positive": false,
+    "rationale": "Four failures stay below threshold",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T02:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T02:05:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T02:05:04+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T02:05:07+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-0-03",
+    "target_rule": "ROLL-001",
+    "expected_positive": false,
+    "rationale": "Failures are outside rolling window",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T03:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T03:09:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T03:15:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T03:20:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T03:25:02+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-0-04",
+    "target_rule": "ROLL-001",
+    "expected_positive": false,
+    "rationale": "Four failures stay below threshold",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T04:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T04:05:03+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T04:05:08+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T04:05:13+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-0-05",
+    "target_rule": "ROLL-001",
+    "expected_positive": false,
+    "rationale": "Failures are outside rolling window",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T05:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T05:09:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T05:15:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T05:20:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T05:25:02+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-0-06",
+    "target_rule": "ROLL-001",
+    "expected_positive": false,
+    "rationale": "Four failures stay below threshold",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T06:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T06:05:05+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T06:05:12+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T06:05:19+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-0-07",
+    "target_rule": "ROLL-001",
+    "expected_positive": false,
+    "rationale": "Failures are outside rolling window",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T07:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T07:09:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T07:15:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T07:20:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T07:25:02+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-0-08",
+    "target_rule": "ROLL-001",
+    "expected_positive": false,
+    "rationale": "Four failures stay below threshold",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T08:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T08:05:07+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T08:05:16+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T08:05:25+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-0-09",
+    "target_rule": "ROLL-001",
+    "expected_positive": false,
+    "rationale": "Failures are outside rolling window",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T09:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T09:09:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T09:15:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T09:20:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T09:25:02+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-0-10",
+    "target_rule": "ROLL-001",
+    "expected_positive": false,
+    "rationale": "Four failures stay below threshold",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T10:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T10:05:09+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T10:05:20+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T10:05:31+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-001-0-11",
+    "target_rule": "ROLL-001",
+    "expected_positive": false,
+    "rationale": "Failures are outside rolling window",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T11:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T11:09:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T11:15:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T11:20:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T11:25:02+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-1-00",
+    "target_rule": "ROLL-002",
+    "expected_positive": true,
+    "rationale": "Success after three recent failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T00:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T00:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T00:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T00:05:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-1-01",
+    "target_rule": "ROLL-002",
+    "expected_positive": true,
+    "rationale": "Success after three recent failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T01:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T01:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T01:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T01:05:02+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-1-02",
+    "target_rule": "ROLL-002",
+    "expected_positive": true,
+    "rationale": "Success after three recent failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T02:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T02:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T02:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T02:05:03+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-1-03",
+    "target_rule": "ROLL-002",
+    "expected_positive": true,
+    "rationale": "Success after three recent failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T03:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T03:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T03:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T03:05:04+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-1-04",
+    "target_rule": "ROLL-002",
+    "expected_positive": true,
+    "rationale": "Success after three recent failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T04:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T04:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T04:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T04:05:05+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-1-05",
+    "target_rule": "ROLL-002",
+    "expected_positive": true,
+    "rationale": "Success after three recent failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T05:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T05:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T05:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T05:05:06+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-1-06",
+    "target_rule": "ROLL-002",
+    "expected_positive": true,
+    "rationale": "Success after three recent failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T06:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T06:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T06:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T06:05:07+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-1-07",
+    "target_rule": "ROLL-002",
+    "expected_positive": true,
+    "rationale": "Success after three recent failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T07:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T07:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T07:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T07:05:08+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-1-08",
+    "target_rule": "ROLL-002",
+    "expected_positive": true,
+    "rationale": "Success after three recent failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T08:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T08:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T08:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T08:05:09+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-1-09",
+    "target_rule": "ROLL-002",
+    "expected_positive": true,
+    "rationale": "Success after three recent failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T09:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T09:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T09:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T09:05:10+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-1-10",
+    "target_rule": "ROLL-002",
+    "expected_positive": true,
+    "rationale": "Success after three recent failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T10:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T10:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T10:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T10:05:11+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-1-11",
+    "target_rule": "ROLL-002",
+    "expected_positive": true,
+    "rationale": "Success after three recent failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T11:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T11:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T11:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T11:05:12+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-0-00",
+    "target_rule": "ROLL-002",
+    "expected_positive": false,
+    "rationale": "Success precedes failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T00:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T00:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T00:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T00:04:57+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-0-01",
+    "target_rule": "ROLL-002",
+    "expected_positive": false,
+    "rationale": "Failures expired",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T01:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T01:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T01:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T01:10:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-0-02",
+    "target_rule": "ROLL-002",
+    "expected_positive": false,
+    "rationale": "Different user",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T02:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T02:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T02:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T02:05:08+00:00",
+        "username": "other",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-0-03",
+    "target_rule": "ROLL-002",
+    "expected_positive": false,
+    "rationale": "Different source",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T03:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T03:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T03:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T03:05:08+00:00",
+        "username": "alex",
+        "src_ip": "192.0.2.9",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-0-04",
+    "target_rule": "ROLL-002",
+    "expected_positive": false,
+    "rationale": "Success precedes failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T04:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T04:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T04:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T04:04:57+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-0-05",
+    "target_rule": "ROLL-002",
+    "expected_positive": false,
+    "rationale": "Failures expired",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T05:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T05:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T05:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T05:10:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-0-06",
+    "target_rule": "ROLL-002",
+    "expected_positive": false,
+    "rationale": "Different user",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T06:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T06:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T06:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T06:05:08+00:00",
+        "username": "other",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-0-07",
+    "target_rule": "ROLL-002",
+    "expected_positive": false,
+    "rationale": "Different source",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T07:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T07:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T07:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T07:05:08+00:00",
+        "username": "alex",
+        "src_ip": "192.0.2.9",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-0-08",
+    "target_rule": "ROLL-002",
+    "expected_positive": false,
+    "rationale": "Success precedes failures",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T08:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T08:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T08:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T08:04:57+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-0-09",
+    "target_rule": "ROLL-002",
+    "expected_positive": false,
+    "rationale": "Failures expired",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T09:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T09:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T09:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T09:10:01+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-0-10",
+    "target_rule": "ROLL-002",
+    "expected_positive": false,
+    "rationale": "Different user",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T10:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T10:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T10:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T10:05:08+00:00",
+        "username": "other",
+        "src_ip": "203.0.113.10",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-002-0-11",
+    "target_rule": "ROLL-002",
+    "expected_positive": false,
+    "rationale": "Different source",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T11:04:58+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T11:04:59+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T11:05:00+00:00",
+        "username": "alex",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T11:05:08+00:00",
+        "username": "alex",
+        "src_ip": "192.0.2.9",
+        "action": "success",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-1-00",
+    "target_rule": "ROLL-003",
+    "expected_positive": true,
+    "rationale": "Five distinct targeted users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T00:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T00:04:59+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T00:05:00+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T00:05:01+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T00:05:02+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-1-01",
+    "target_rule": "ROLL-003",
+    "expected_positive": true,
+    "rationale": "Five distinct targeted users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T01:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T01:05:00+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T01:05:02+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T01:05:04+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T01:05:06+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-1-02",
+    "target_rule": "ROLL-003",
+    "expected_positive": true,
+    "rationale": "Five distinct targeted users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T02:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T02:05:01+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T02:05:04+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T02:05:07+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T02:05:10+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-1-03",
+    "target_rule": "ROLL-003",
+    "expected_positive": true,
+    "rationale": "Five distinct targeted users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T03:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T03:05:02+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T03:05:06+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T03:05:10+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T03:05:14+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-1-04",
+    "target_rule": "ROLL-003",
+    "expected_positive": true,
+    "rationale": "Five distinct targeted users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T04:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T04:05:03+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T04:05:08+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T04:05:13+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T04:05:18+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-1-05",
+    "target_rule": "ROLL-003",
+    "expected_positive": true,
+    "rationale": "Five distinct targeted users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T05:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T05:05:04+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T05:05:10+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T05:05:16+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T05:05:22+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-1-06",
+    "target_rule": "ROLL-003",
+    "expected_positive": true,
+    "rationale": "Five distinct targeted users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T06:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T06:05:05+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T06:05:12+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T06:05:19+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T06:05:26+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-1-07",
+    "target_rule": "ROLL-003",
+    "expected_positive": true,
+    "rationale": "Five distinct targeted users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T07:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T07:05:06+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T07:05:14+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T07:05:22+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T07:05:30+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-1-08",
+    "target_rule": "ROLL-003",
+    "expected_positive": true,
+    "rationale": "Five distinct targeted users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T08:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T08:05:07+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T08:05:16+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T08:05:25+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T08:05:34+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-1-09",
+    "target_rule": "ROLL-003",
+    "expected_positive": true,
+    "rationale": "Five distinct targeted users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T09:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T09:05:08+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T09:05:18+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T09:05:28+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T09:05:38+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-1-10",
+    "target_rule": "ROLL-003",
+    "expected_positive": true,
+    "rationale": "Five distinct targeted users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T10:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T10:05:09+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T10:05:20+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T10:05:31+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T10:05:42+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-1-11",
+    "target_rule": "ROLL-003",
+    "expected_positive": true,
+    "rationale": "Five distinct targeted users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T11:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T11:05:10+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T11:05:22+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T11:05:34+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T11:05:46+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-0-00",
+    "target_rule": "ROLL-003",
+    "expected_positive": false,
+    "rationale": "Only four distinct users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T00:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T00:04:59+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T00:05:00+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T00:05:01+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T00:05:02+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-0-01",
+    "target_rule": "ROLL-003",
+    "expected_positive": false,
+    "rationale": "Distinct users outside time window",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T01:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T01:14:59+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T01:25:00+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T01:35:01+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T01:45:02+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-0-02",
+    "target_rule": "ROLL-003",
+    "expected_positive": false,
+    "rationale": "Only four distinct users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T02:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T02:05:01+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T02:05:04+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T02:05:07+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T02:05:10+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-0-03",
+    "target_rule": "ROLL-003",
+    "expected_positive": false,
+    "rationale": "Distinct users outside time window",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T03:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T03:14:59+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T03:25:00+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T03:35:01+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T03:45:02+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-0-04",
+    "target_rule": "ROLL-003",
+    "expected_positive": false,
+    "rationale": "Only four distinct users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T04:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T04:05:03+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T04:05:08+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T04:05:13+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T04:05:18+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-0-05",
+    "target_rule": "ROLL-003",
+    "expected_positive": false,
+    "rationale": "Distinct users outside time window",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T05:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T05:14:59+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T05:25:00+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T05:35:01+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T05:45:02+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-0-06",
+    "target_rule": "ROLL-003",
+    "expected_positive": false,
+    "rationale": "Only four distinct users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T06:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T06:05:05+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T06:05:12+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T06:05:19+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T06:05:26+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-0-07",
+    "target_rule": "ROLL-003",
+    "expected_positive": false,
+    "rationale": "Distinct users outside time window",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T07:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T07:14:59+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T07:25:00+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T07:35:01+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T07:45:02+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-0-08",
+    "target_rule": "ROLL-003",
+    "expected_positive": false,
+    "rationale": "Only four distinct users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T08:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T08:05:07+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T08:05:16+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T08:05:25+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T08:05:34+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-0-09",
+    "target_rule": "ROLL-003",
+    "expected_positive": false,
+    "rationale": "Distinct users outside time window",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T09:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T09:14:59+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T09:25:00+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T09:35:01+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T09:45:02+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-0-10",
+    "target_rule": "ROLL-003",
+    "expected_positive": false,
+    "rationale": "Only four distinct users",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T10:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T10:05:09+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T10:05:20+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T10:05:31+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T10:05:42+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  },
+  {
+    "case_id": "ROLL-003-0-11",
+    "target_rule": "ROLL-003",
+    "expected_positive": false,
+    "rationale": "Distinct users outside time window",
+    "events": [
+      {
+        "event_id": "e0",
+        "timestamp": "2026-10-01T11:04:58+00:00",
+        "username": "user0",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e1",
+        "timestamp": "2026-10-01T11:14:59+00:00",
+        "username": "user1",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e2",
+        "timestamp": "2026-10-01T11:25:00+00:00",
+        "username": "user2",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e3",
+        "timestamp": "2026-10-01T11:35:01+00:00",
+        "username": "user3",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      },
+      {
+        "event_id": "e4",
+        "timestamp": "2026-10-01T11:45:02+00:00",
+        "username": "user4",
+        "src_ip": "203.0.113.10",
+        "action": "failure",
+        "geo": "US-NC"
+      }
+    ]
+  }
+]

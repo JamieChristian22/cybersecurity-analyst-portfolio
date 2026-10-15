@@ -1,0 +1,7 @@
+index=auth action=success
+| sort 0 _time event_id
+| streamstats current=f last(_time) AS prev_time last(geo) AS prev_geo last(src_ip) AS prev_ip BY username
+| eval delta_minutes=(_time-prev_time)/60
+| where isnotnull(prev_geo) AND geo!="" AND prev_geo!="" AND geo!=prev_geo AND delta_minutes>0 AND delta_minutes<=60
+| eval severity="medium", detection_name="Rapid geography change (review required)", rule_id="AUTH-004"
+| table _time event_id username prev_geo geo prev_ip src_ip delta_minutes severity detection_name rule_id

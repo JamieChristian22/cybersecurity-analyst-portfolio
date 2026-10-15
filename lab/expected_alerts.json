@@ -1,0 +1,18 @@
+[
+  {
+    "rule_id": "AUTH-001",
+    "event_id": "A05"
+  },
+  {
+    "rule_id": "AUTH-002",
+    "event_id": "A06"
+  },
+  {
+    "rule_id": "AUTH-003",
+    "event_id": "D05"
+  },
+  {
+    "rule_id": "AUTH-004",
+    "event_id": "E02"
+  }
+]

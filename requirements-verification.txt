@@ -1,0 +1,2 @@
+# Optional independent packet decoder; core lab uses the Python standard library.
+dpkt==1.9.8

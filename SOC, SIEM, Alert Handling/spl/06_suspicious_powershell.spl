@@ -1,0 +1,5 @@
+index=endpoint (process_name="powershell.exe" OR process_name="pwsh.exe")
+| eval cmd=lower(command_line)
+| where like(cmd,"%encodedcommand%") OR like(cmd,"%frombase64string%") OR like(cmd,"%downloadstring%")
+| eval severity="high"
+| table _time host user parent_process process_name command_line severity

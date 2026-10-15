@@ -1,0 +1,19 @@
+CAPSTONE INTEGRATION - PORTFOLIO INDEX
+
+01 Executive Cybersecurity Program Overview
+02 Enterprise Risk & Control Summary
+03 Security Architecture & Data Flow
+04 SOC Detection & Monitoring Plan
+05 Incident Response Operating Model
+06 Vulnerability Management Program
+07 IAM & Access Governance Plan
+08 Compliance & Control Crosswalk
+09 30/60/90-Day Security Roadmap
+10 Executive Security Metrics Dashboard
+11 Security Program Maturity Review
+12 Recruiter Quick View
+README.md
+data/executive_security_metrics.csv
+
+All content is fully completed. No placeholders are included.
+All business facts and metrics are simulated portfolio case-study data.
