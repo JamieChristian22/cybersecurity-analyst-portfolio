@@ -1,0 +1,44 @@
+name: Bug report
+description: Report a reproducible issue with a lab, detection, or documentation example
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use only synthetic or sanitized examples. Do not publish credentials, real incident information, or sensitive vulnerability details. Refer to SECURITY.md for private reporting.
+  - type: input
+    id: component
+    attributes:
+      label: Affected component
+      description: Name the script, detector, lab, fixture, or document.
+      placeholder: "lab/detections.py or docs/LAB_GUIDE.md"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Describe a safe local reproduction, including the command you ran.
+      placeholder: "1. Run python -m lab.reproduce..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and sanitized evidence
+      description: Remove secrets, sensitive logs, and any real personal information.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment and versions
+      placeholder: "OS, Python version, SQLite version (if relevant)"
+    validations:
+      required: false
