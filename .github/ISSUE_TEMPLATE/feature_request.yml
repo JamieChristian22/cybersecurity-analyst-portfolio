@@ -1,0 +1,36 @@
+name: Feature request
+description: Suggest a safe learning, detection, testing, or documentation improvement
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Suggestions should support legitimate educational or defensive security work. Implementation is not guaranteed.
+  - type: input
+    id: area
+    attributes:
+      label: Project area
+      placeholder: "SOC detections, forensic lab, risk controls, documentation..."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or learning need
+      description: Explain the gap the proposed change would address.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: Describe the intended improvement and measurable value.
+    validations:
+      required: true
+  - type: textarea
+    id: safeguards
+    attributes:
+      label: Safety, testing, and evidence considerations
+      description: Explain how this can be evaluated using authorized and synthetic data.
+    validations:
+      required: false
