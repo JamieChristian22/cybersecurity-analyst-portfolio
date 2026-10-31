@@ -7,6 +7,8 @@ Python and SQL detections, raw endpoint XML, a valid synthetic PCAP, tested auto
 and supporting security case studies.
 All incidents, accounts and outcomes are simulated unless explicitly stated otherwise.
 
+[![Sponsor this cybersecurity portfolio](https://img.shields.io/badge/Sponsor%20this%20project-GitHub%20Sponsors-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/JamieChristian22)
+
 **Start here:** [Five-minute reviewer guide](docs/REVIEWER_GUIDE.md) ·
 [Run the lab](docs/LAB_GUIDE.md) · [Investigation casebook](docs/CASEBOOK.md) ·
 [Validation and limitations](docs/VALIDATION.md)
@@ -110,6 +112,14 @@ preserves the broader background without making the homepage difficult to scan.
 **Data analysis:** SQL joins, aggregation, UTC handling and time-window boundaries.
 
 **Risk communication:** defensible conclusions, control testing, ownership and explicit uncertainty.
+
+## 💖 Support This Project
+
+If these reproducible SOC investigations, Python/SQL detections, forensic case studies, and security automation examples are useful, you can [support independent development through GitHub Sponsors](https://github.com/sponsors/JamieChristian22).
+
+[![Become a GitHub Sponsor](https://img.shields.io/badge/Become%20a-GitHub%20Sponsor-EA4AAA?logo=githubsponsors&logoColor=white)](https://github.com/sponsors/JamieChristian22)
+
+Sponsorship is **optional** and helps sustain documentation, synthetic testing, educational tools, and maintenance. You can also help by starring the repository or proposing improvements through [CONTRIBUTING.md](CONTRIBUTING.md). Support does not guarantee implementation of requests or affect the interpretation of security evidence.
 
 ## 📫 Contact
 
