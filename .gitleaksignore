@@ -1,0 +1,5 @@
+# Historical false-positive only: SHA-256 source-file digest for
+# lab/auth_events.csv in evidence/manifest.json, not an API credential.
+# Gitleaks 8.24.x recognizes exact finding fingerprints in this file.
+# Never add broad paths, rules, patterns or whole-commit exemptions.
+6713e7d969f060862a94b03db103d6d7a02b10ee:evidence/manifest.json:generic-api-key:12
