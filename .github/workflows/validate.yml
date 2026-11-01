@@ -91,5 +91,13 @@ jobs:
           echo 'fa0500f6b7e41d28791ebc680f5dd9899cd42b58629218a5f041efa899151a8e  /tmp/gitleaks.tar.gz' | sha256sum --check
           tar -xzf /tmp/gitleaks.tar.gz -C /tmp gitleaks
           chmod +x /tmp/gitleaks
-      - name: Scan historical source for accidental credentials
-        run: /tmp/gitleaks git --no-banner --redact .
+      - name: Scan historical source for accidental credentials (fail on findings)
+        run: |
+          set +e
+          /tmp/gitleaks git --no-banner --redact --report-format json --report-path /tmp/gitleaks-report.json .
+          status=$?
+          set -e
+          if [ -f /tmp/gitleaks-report.json ]; then
+            python scripts/summarize_gitleaks.py /tmp/gitleaks-report.json
+          fi
+          exit "$status"
