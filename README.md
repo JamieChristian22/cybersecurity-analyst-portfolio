@@ -36,7 +36,7 @@ python -m lab.reproduce
 ```
 
 Use Python 3.11+ and SQLite 3.38+. No paid tools, dependencies or cloud account are needed.
-Run from the repository root. The command checks expected results, runs **82 automated tests**,
+Run from the repository root. The command checks expected results, runs **92 automated tests**,
 and writes reproducible evidence. [Setup and Splunk acceptance steps →](docs/LAB_GUIDE.md)
 
 | Evidence | What to inspect |
