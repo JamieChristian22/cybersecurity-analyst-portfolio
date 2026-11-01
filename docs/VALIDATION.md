@@ -1,5 +1,9 @@
 # Validation record and claim boundaries
 
+## 2026-11-01 feature-branch CI update
+
+The missing workflow was added in `.github/workflows/validate.yml`, together with an [offline SOC investigation console](INTERACTIVE_SOC_DEMO.md), source-parity/accessible-UI regressions and malformed CSV header/row rejection. Actual GitHub Actions job results, rather than this paragraph, establish whether the Python 3.11–3.13 matrix and Gitleaks checks passed. The snapshot below is historical local evidence from before this feature branch; test counts may grow after additional regression coverage.
+
 ## Executed locally
 
 - `python -m lab.reproduce`: checks exact expected alert identities, SQL agreement and unit tests.
