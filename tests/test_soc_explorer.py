@@ -75,4 +75,4 @@ class SOCExplorerTests(unittest.TestCase):
         self.assertNotIn("innerHTML",self.page)
         self.assertNotIn("fetch(",self.page)
         self.assertFalse(parser.remote)
-        self.assertIn("no live SOC",self.data["scope"].lower())
+        self.assertIn("no production telemetry",self.data["scope"].lower())
