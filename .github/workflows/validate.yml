@@ -94,7 +94,7 @@ jobs:
       - name: Scan historical source for accidental credentials (fail on findings)
         run: |
           set +e
-          /tmp/gitleaks git --no-banner --redact --report-format json --report-path /tmp/gitleaks-report.json .
+          /tmp/gitleaks git --config .gitleaks.toml --no-banner --redact --report-format json --report-path /tmp/gitleaks-report.json .
           status=$?
           set -e
           if [ -f /tmp/gitleaks-report.json ]; then
