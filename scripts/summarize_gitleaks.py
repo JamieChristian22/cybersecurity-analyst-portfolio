@@ -19,6 +19,7 @@ def summarize(report: Path):
             "file":str(item.get("File","unknown"))[:350],
             "line":item.get("StartLine"),
             "commit":str(item.get("Commit",""))[:40],
+            "fingerprint":str(item.get("Fingerprint",""))[:350],
         })
     return safe
 
