@@ -1,11 +1,5 @@
-# Retain the entire upstream Gitleaks rule set, including future rule updates.
+# Gitleaks v8.24.2: retain the entire upstream secret-detection ruleset.
+# Per-finding historical false positives are listed in .gitleaksignore.
+# Do not use broad paths/regexes, rule disabling or commit-wide exemptions.
 [extend]
 useDefault = true
-
-# The exact historical finding is the SHA-256 digest for lab/auth_events.csv
-# stored in evidence/manifest.json, line 12 of commit 6713e7d.
-# A cryptographic source-file checksum is not a credential.
-# No path-wide, rule-wide or generic hexadecimal-value allowlist is authorized.
-[[allowlists]]
-description = "Historical SOC fixture SHA-256 checksum misclassified as generic API key"
-fingerprints = ["6713e7d969f060862a94b03db103d6d7a02b10ee:evidence/manifest.json:generic-api-key:12"]
