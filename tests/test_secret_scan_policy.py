@@ -1,4 +1,4 @@
-"""Security regression: never broadly exempt secrets from historical scanning."""
+"""Security regression: default detection rules and one fingerprint-level false positive."""
 import tomllib
 import unittest
 from pathlib import Path
@@ -10,13 +10,10 @@ class LeakPolicyTests(unittest.TestCase):
     def test_default_gitleaks_rules_remain_enabled(self):
         config=tomllib.loads((ROOT/".gitleaks.toml").read_text(encoding="utf-8"))
         self.assertTrue(config["extend"]["useDefault"])
+        self.assertNotIn("allowlists",config)
+        self.assertNotIn("rules",config)
 
-    def test_only_exact_historical_checksum_fingerprint_is_exempted(self):
-        config=tomllib.loads((ROOT/".gitleaks.toml").read_text(encoding="utf-8"))
-        self.assertEqual(len(config["allowlists"]),1)
-        entry=config["allowlists"][0]
-        self.assertEqual(entry["fingerprints"],[EXACT])
-        self.assertNotIn("paths",entry)
-        self.assertNotIn("regexes",entry)
-        self.assertNotIn("stopwords",entry)
-        self.assertNotIn("commits",entry)
+    def test_ignore_file_only_has_single_historical_checksum_fingerprint(self):
+        entries=[line.strip() for line in (ROOT/".gitleaksignore").read_text(encoding="utf-8").splitlines()
+                 if line.strip() and not line.strip().startswith("#")]
+        self.assertEqual(entries,[EXACT])
