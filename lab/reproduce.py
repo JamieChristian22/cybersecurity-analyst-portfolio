@@ -48,7 +48,7 @@ def main():
     (output/'test_results.txt').write_text(result.stdout + result.stderr)
     if result.returncode:
         raise SystemExit(result.returncode)
-    count = re.search(r"^Ran (\\d+) tests in ", result.stdout + result.stderr, re.MULTILINE)
+    count = re.search(r"^Ran (\d+) tests in ", result.stdout + result.stderr, re.MULTILINE)
     if not count or int(count.group(1)) < 82:
         raise AssertionError("Unit test discovery did not execute the expected regression suite")
     tests_run = int(count.group(1))
