@@ -3,6 +3,7 @@ import argparse
 import hashlib
 import json
 import platform
+import re
 import sqlite3
 import subprocess
 import sys
@@ -47,15 +48,19 @@ def main():
     (output/'test_results.txt').write_text(result.stdout + result.stderr)
     if result.returncode:
         raise SystemExit(result.returncode)
+    count = re.search(r"^Ran (\d+) tests in ", result.stdout + result.stderr, re.MULTILINE)
+    if not count or int(count.group(1)) < 82:
+        raise AssertionError("Unit test discovery did not execute the expected regression suite")
+    tests_run = int(count.group(1))
     hashes = {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest()
               for p in sorted(list((ROOT/'lab').glob('*.py')) + list((ROOT/'lab').glob('*.csv'))
                               + list((ROOT/'lab').glob('*.sql')) + [ROOT/'lab/expected_alerts.json'])}
     manifest = {'python': platform.python_version(), 'events': len(events), 'alerts': len(alerts),
-                'sql_correlations': len(rows), 'tests_exit_code': result.returncode,
+                'sql_correlations': len(rows), 'tests_exit_code': result.returncode, 'tests_run': tests_run,
                 'data_origin': 'Synthetic, authored fixture; no production telemetry',
                 'splunk_execution': 'Not performed', 'independent_pcap_verification': independent_status, 'sha256': hashes}
     (output/'manifest.json').write_text(json.dumps(manifest, indent=2)+'\n')
-    print(f'PASS: {len(events)} synthetic events, {len(alerts)} expected alerts, {len(rows)} SQL correlations; tests passed.')
+    print(f'PASS: {len(events)} synthetic events, {len(alerts)} expected alerts, {len(rows)} SQL correlations; {tests_run} tests passed.')
 
 if __name__ == '__main__':
     main()

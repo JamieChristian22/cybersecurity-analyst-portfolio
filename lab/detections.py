@@ -17,11 +17,16 @@ def timestamp(value):
 def read_events(path):
     with Path(path).open(newline='', encoding='utf-8') as handle:
         reader = csv.DictReader(handle)
-        if not REQUIRED.issubset(reader.fieldnames or []):
+        headers = reader.fieldnames or []
+        if not REQUIRED.issubset(headers):
             raise ValueError('missing required CSV columns')
+        if len(headers) != len(set(headers)):
+            raise ValueError('duplicate CSV header')
         events, identifiers = [], set()
         for number, row in enumerate(reader, 2):
             try:
+                if None in row:
+                    raise ValueError('unexpected extra CSV fields')
                 if any(not row.get(k, '').strip() for k in REQUIRED):
                     raise ValueError('empty required field')
                 if row['event_id'] in identifiers:

@@ -1,5 +1,11 @@
 # Validation record and claim boundaries
 
+## 2026-11-01 feature-branch CI update
+
+The missing workflow was added in `.github/workflows/validate.yml`, together with an [offline SOC investigation console](INTERACTIVE_SOC_DEMO.md), source-parity/accessible-UI regressions and malformed CSV header/row rejection. Actual GitHub Actions job results, rather than this paragraph, establish whether the Python 3.11–3.13 matrix and Gitleaks checks passed. The snapshot below is historical local evidence from before this feature branch; test counts may grow after additional regression coverage.
+
+Hosted GitHub Actions [run #41341600973](https://github.com/JamieChristian22/cybersecurity-analyst-portfolio/actions/runs/41341600973) completed successfully across Python 3.11, 3.12 and 3.13, with **92 executed unit/CLI tests per Python version**, 23 synthetic auth events, 4 generated alerts, 1 SQL correlation, 13 independently decoded packets and 72 labeled rolling scenarios. The full Git-history Gitleaks job also passed. One historical SHA-256 evidence digest was individually verified as a false positive and exempted by exact fingerprint in `.gitleaksignore`; the scanner retains its default detection rules and otherwise blocks findings. No live Splunk or incident response has been performed.
+
 ## Executed locally
 
 - `python -m lab.reproduce`: checks exact expected alert identities, SQL agreement and unit tests.

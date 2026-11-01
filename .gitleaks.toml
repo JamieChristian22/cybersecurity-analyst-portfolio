@@ -1,0 +1,5 @@
+# Gitleaks v8.24.2: retain the entire upstream secret-detection ruleset.
+# Per-finding historical false positives are listed in .gitleaksignore.
+# Do not use broad paths/regexes, rule disabling or commit-wide exemptions.
+[extend]
+useDefault = true

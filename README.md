@@ -13,6 +13,18 @@ All incidents, accounts and outcomes are simulated unless explicitly stated othe
 [Run the lab](docs/LAB_GUIDE.md) · [Investigation casebook](docs/CASEBOOK.md) ·
 [Validation and limitations](docs/VALIDATION.md)
 
+## 🖥️ Interactive SOC investigation console
+
+[![SOC validation](https://github.com/JamieChristian22/cybersecurity-analyst-portfolio/actions/workflows/validate.yml/badge.svg)](https://github.com/JamieChristian22/cybersecurity-analyst-portfolio/actions/workflows/validate.yml)
+
+**[Open the offline SOC Investigation Console](demo/soc-investigation.html)** · [Reviewer walkthrough and test scope](docs/INTERACTIVE_SOC_DEMO.md)
+
+Investigate the exact **23 authored authentication events** and **four generated alerts** used in the reproducible SOC lab. Filter alert rules, inspect supporting event timelines, and draft a local analyst disposition. The interface does not store or submit notes, access a SIEM or perform containment. Download the HTML and open it in a browser to interact; GitHub's file viewer does not execute it.
+
+The [GitHub CI workflow](.github/workflows/validate.yml) validates Python 3.11, 3.12 and 3.13, reproduces Python/SQLite detections, independently checks synthetic PCAP checksums with dpkt, runs the regression suite and scans Git history for accidental secrets. Review the current Actions run rather than assuming a successful badge means native Splunk or production validation. The alert queue and evidence links are automatically checked against their original source CSV/JSON files.
+
+---
+
 ## 🔎 Flagship: authentication investigation
 
 Trace 23 synthetic events through validation, detection, independent SQL correlation,
@@ -24,7 +36,7 @@ python -m lab.reproduce
 ```
 
 Use Python 3.11+ and SQLite 3.38+. No paid tools, dependencies or cloud account are needed.
-Run from the repository root. The command checks expected results, runs **82 automated tests**,
+Run from the repository root. The command checks expected results, runs **92 automated tests**,
 and writes reproducible evidence. [Setup and Splunk acceptance steps →](docs/LAB_GUIDE.md)
 
 | Evidence | What to inspect |

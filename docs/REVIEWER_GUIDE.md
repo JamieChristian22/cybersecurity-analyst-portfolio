@@ -11,6 +11,10 @@ and junior GRC roles. This is a simulated learning portfolio, not employment exp
 | Minute 4 | [Tests](../tests/) and [manifest](../evidence/manifest.json) | Reproducibility, failure handling and negative cases |
 | Minute 5 | [GRC linkage](RISK_AND_CONTROLS.md) and [limitations](VALIDATION.md) | Business-risk interpretation and honest scope |
 
+## Interactive reviewer entrypoint
+
+[Open the offline SOC console](../demo/soc-investigation.html) to filter actual simulated alerts, inspect linked event evidence and practice an analyst handoff. The source-backed values are parity-tested against the reference detector and committed fixture; this is not a live SIEM. Read [demo limitations](INTERACTIVE_SOC_DEMO.md) for a walkthrough.
+
 ## Additional technical evidence
 
 - [Endpoint/network case](FORENSIC_CASE.md): raw XML and PCAP, GUID correlation, packet-number references and an independent decoder.

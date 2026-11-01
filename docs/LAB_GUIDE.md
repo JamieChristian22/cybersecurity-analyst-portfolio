@@ -16,7 +16,7 @@ python -m lab.reproduce
 Expected summary: **23 events, 4 alerts, 1 SQL correlation; tests passed.**
 The command also checks six Windows events, thirteen packet records, and 72 labeled
 rolling-rule scenarios. It exits nonzero if expected alerts differ, SQL disagrees, forensic
-results differ, a labeled scenario fails, or any of the 82 unit/CLI tests fails.
+results differ, a labeled scenario fails, or any of the 92 unit/CLI tests fails.
 Run tests separately with `python -m unittest discover -s tests -v`.
 
 ## Files to inspect in order
