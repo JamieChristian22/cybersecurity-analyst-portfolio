@@ -1,0 +1,29 @@
+# Python caches and temporary test outputs
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Local/possibly sensitive captures and investigator work
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+secrets.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.sqlite
+*.sqlite3
+*.pcapng
+!lab/fixtures/network/traffic.pcap
+# Keep intentionally committed synthetic evidence files already in this repo.
