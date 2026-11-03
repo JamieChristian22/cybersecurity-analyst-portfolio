@@ -129,3 +129,7 @@ Sponsorship is **optional** and helps sustain documentation, synthetic testing, 
 
 **Integrity note:** This portfolio does not claim production incident ownership, employer
 security outcomes, formal audit attestation or completed deployment of its proposed controls.
+
+## License and third-party materials
+
+See [LICENSE](LICENSE) for the repository license. Third-party code, datasets, images, and other assets retain their respective terms.
