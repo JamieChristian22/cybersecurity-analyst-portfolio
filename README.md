@@ -19,7 +19,7 @@ All incidents, accounts and outcomes are simulated unless explicitly stated othe
 | --- | --- |
 | **Try a security investigation** | [10-minute community walkthrough](docs/COMMUNITY_START_HERE.md), then [lab instructions](docs/LAB_GUIDE.md) |
 | **Evaluate the evidence** | [Five-minute reviewer guide](docs/REVIEWER_GUIDE.md) and [investigation casebook](docs/CASEBOOK.md) |
-| **Contribute a useful improvement** | [Contributor guide](CONTRIBUTING.md), then [open issues](https://github.com/JamieChristian22/cybersecurity-analyst-portfolio/issues) |
+| **Contribute a useful improvement** | [Three small community tasks](docs/COMMUNITY_TASKS.md) · [Contributor guide](CONTRIBUTING.md) · [Open issues](https://github.com/JamieChristian22/cybersecurity-analyst-portfolio/issues) |
 
 The core lab uses **synthetic security data** and runs locally with Python and SQLite. No cloud account or paid service is required. Security findings are learning examples—not real-world incident or detection-performance claims.
 
